@@ -2,6 +2,8 @@
 
 This is a command line tool to generate DSI files from C4 diagrams.
 
+GitHub Source Code: [https://github.com/jgquiroga/dsmviz.analyzer.c4](https://github.com/jgquiroga/dsmviz.analyzer.c4)
+
 DSI files can be visualized using the [DSM Visualizer](https://github.com/dsmviz/dsmviz.github.io).
 
 ## C4 (Structurizr) Files
