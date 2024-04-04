@@ -19,8 +19,12 @@ docker run -it --rm -v ${PWD}:/usr/local/structurizr structurizr/cli export -wor
 Run the following command to install the tool:
 
 ```bash
-dotnet tool install -g dsmviz-analyzer-c4
+dotnet tool install --global dsmviz-analyzer-c4 --version 0.1.0-alpha.1
 ```
+
+**Notes**:
+
+The tool requires Net core 8.0 or later.
 
 ## Usage
 
@@ -56,3 +60,12 @@ The following is an example of the AnalyzerSettings.xml file:
 - Output.Filename: The path to the output file.
 - Output.Compress: A flag to compress the output file.
 - Transformation: The transformation settings.
+
+
+## Uninstallation
+
+Run the following command to uninstall the tool:
+
+```bash
+dotnet tool uninstall --global dsmviz-analyzer-c4
+```

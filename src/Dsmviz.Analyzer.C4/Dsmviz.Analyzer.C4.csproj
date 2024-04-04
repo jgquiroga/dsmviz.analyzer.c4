@@ -7,11 +7,13 @@
     <Nullable>enable</Nullable>
     <PackAsTool>true</PackAsTool>
 		<ToolCommandName>dsmviz-analyzer-c4</ToolCommandName>
-		<Version>0.0.1</Version>
-		<PackageId>Dsmviz.Analyzer.C4</PackageId>
+		<Version>0.1.0-alpha.1</Version>
+		<PackageId>dsmviz-analyzer-c4</PackageId>
 		<Authors>jgquiroga</Authors>
 		<Product>Dsmviz</Product>
 		<PackageOutputPath>./nupkg</PackageOutputPath>
+		<PackageProjectUrl>https://github.com/jgquiroga/dsmviz.analyzer.c4</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/jgquiroga/dsmviz.analyzer.c4</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
