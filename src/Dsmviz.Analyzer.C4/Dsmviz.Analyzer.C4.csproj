@@ -5,7 +5,13 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-		<PublishAot>true</PublishAot>
+    <PackAsTool>true</PackAsTool>
+		<ToolCommandName>dsmviz-analyzer-c4</ToolCommandName>
+		<Version>0.0.1</Version>
+		<PackageId>Dsmviz.Analyzer.C4</PackageId>
+		<Authors>jgquiroga</Authors>
+		<Product>Dsmviz</Product>
+		<PackageOutputPath>./nupkg</PackageOutputPath>
   </PropertyGroup>
 
   <ItemGroup>

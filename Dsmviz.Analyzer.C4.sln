@@ -17,7 +17,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Datamodel", "Datamodel", "{
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{14DB4017-1F99-4A9A-A1C2-FCB6418E6C70}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dsmviz.Analyzer.C4.Test", "tests\Dsmviz.Analyzer.C4.Test\Dsmviz.Analyzer.C4.Test.csproj", "{0A6D6305-6271-46E9-963E-FEDAE458B70B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dsmviz.Analyzer.C4.Test", "tests\Dsmviz.Analyzer.C4.Test\Dsmviz.Analyzer.C4.Test.csproj", "{0A6D6305-6271-46E9-963E-FEDAE458B70B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{18CBF047-7BE9-41E0-8489-3F85A13E4AAF}"
+	ProjectSection(SolutionItems) = preProject
+		Readne.md = Readne.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
